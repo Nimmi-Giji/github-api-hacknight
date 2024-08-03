@@ -16,6 +16,10 @@ function App() {
   };
 
   function searchRepos(){
+    if (!username) {
+      alert('Please enter a username.');
+      return; 
+    }
     setLoading(true);
     axios({
       method: "get",
@@ -23,6 +27,9 @@ function App() {
     }).then(res => {
       setLoading(false);
       setRepos(res.data);
+    })
+    .catch(error => {
+           alert('Error fetching repository details:', error);
     });
   }
 
@@ -36,18 +43,24 @@ function App() {
     )
   }
   function getDetails(repoName) {
+    if (!username || !repoName) {
+      alert('Please enter a username and select a repository.');
+      return;
+    }
     setDetailsLoading(true);
     axios({
       method: "get",
-      urls: 'https://api.github.com/repos/${username}/${repoName}',
+      url: `https://api.github.com/repos/${username}/${repoName}`,
     }).then(res=> {
       setDetailsLoading(false);
       setDetails(res.data);
+    })
+    .catch(error => {
+           alert('Error fetching repository details:', error);
     });
   }
   return (
     <div>
-
       <form className = "form">
         <input className="input"
         value = {username}
