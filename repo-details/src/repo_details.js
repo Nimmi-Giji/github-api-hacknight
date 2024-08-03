@@ -4,6 +4,9 @@ export default function RepoDetails({ details, loading }) {
             <h1 className="loader">Loading...</h1>
         )
     }
+    if (Object.keys(details).length === 0) {
+        return null;
+    }
     return (
         <div className="repo-details-container">
             <div className="details-row">

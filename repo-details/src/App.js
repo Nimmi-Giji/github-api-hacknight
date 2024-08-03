@@ -1,6 +1,7 @@
 import { useState } from "react";
 import RepoDetails  from "./repo_details";
 import axios from 'axios';
+import './App.css';
 
 function App() {
 
