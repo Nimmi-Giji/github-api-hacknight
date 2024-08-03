@@ -77,13 +77,18 @@ function App() {
       </form>
 
       <div className="results-container">
-        {repos.map(renderRepos)}
-
-        {/* empty array is initialised in useState so the map() function works */}
-
-      </div>
-      <div className={`repo-details-wrapper ${Object.keys(details).length > 0 ? 'visible' : ''}`}>
-        <RepoDetails details={details} loading={detailsLoading} />
+        {repos.map((repo) => (
+          <div key={repo.id} className="repo-item">
+            <div className="row" onClick={() => getDetails(repo.name)}>
+              <h2 className="repo-name">{repo.name}</h2>
+            </div>
+            {details.name === repo.name && (
+              <div className="repo-details-wrapper visible">
+                <RepoDetails details={details} loading={detailsLoading} />
+              </div>
+            )}
+          </div>
+        ))}
       </div>
     </div>
   );
