@@ -1,4 +1,4 @@
-function RepoDetails({ details, loading }) {
+export default function RepoDetails({ details, loading }) {
     if(loading) {
         return (
             <h1 className="loader">Loading...</h1>
