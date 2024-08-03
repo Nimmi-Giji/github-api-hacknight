@@ -7,10 +7,10 @@
 # RepoScout
 RepoScouts is a powerful and intuitive application designed to provide developers, project managers, and tech enthusiasts with insights into GitHub repositories. By leveraging the GitHub API, RepoScout allows users to effortlessly explore and analyze repository details quickly and efficiently. 
 ## Team members
-1. Nimmi M Giji(https://github.com/TH-Activities/saturday-hack-night-template)
-2. Ganga SajeevKumar(https://github.com/TH-Activities/saturday-hack-night-template)
+1. Nimmi M Giji
+2. Ganga SajeevKumar
 ## Link to product walkthrough
-[[link to video](Link Here)](https://drive.google.com/file/d/1I5dHJ-W45A1igVUZ02vC2A2Qmxdxgtgw/view?usp=drive_link)
+[link to video](Project Demo)(https://drive.google.com/file/d/1I5dHJ-W45A1igVUZ02vC2A2Qmxdxgtgw/view?usp=drive_link)
 ## How it Works ?
 1. To begin a search, simply enter the GitHub username of the profile whose repositories you want to analyze.
 2. After pressing Enter or clicking the 'Search' button, you will receive a list of all repositories associated with that profile.
@@ -18,7 +18,11 @@ RepoScouts is a powerful and intuitive application designed to provide developer
 4. You can repeat this process as often as needed to explore various repositories and their details.
 
 
-https://github.com/user-attachments/assets/473568bb-f27d-4500-902f-5e5c9bb6d6df
+
+
+
+
+https://github.com/user-attachments/assets/5cad7e1a-d337-451a-af22-76193e5a2480
 
 
 
