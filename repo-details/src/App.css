@@ -98,22 +98,27 @@ body {
   color: #4299e1;
 }
 
-/* Repos list styles */
+/* Results container */
 .results-container {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
   margin-top: 30px;
+  width: 90%;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
+/* Row styles */
 .row {
   background-color: white;
   border-radius: 10px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   padding: 24px;
   margin-bottom: 24px;
-  width: 90%;
-  max-width: 600px;
+  width: 100%;
+  cursor: pointer;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
@@ -128,21 +133,25 @@ body {
   margin-bottom: 10px;
 }
 
-/* RepoDetails styles */
-.repo-details-container {
-  display: flex;
-  flex-direction: column;
+/* Repo details styles */
+.repo-details-wrapper {
+  display: none;
   margin-top: 30px;
-  padding: 24px;
+  width: 90%;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.repo-details-wrapper.visible {
+  display: block;
+}
+
+.repo-details-container {
   background-color: white;
   border-radius: 10px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  width: 90%;
-
-  padding: 40px;
-  
-  
-
+  padding: 24px;
 }
 
 .details-row {

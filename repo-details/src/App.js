@@ -82,7 +82,7 @@ function App() {
         {/* empty array is initialised in useState so the map() function works */}
 
       </div>
-      <div>
+      <div className={`repo-details-wrapper ${Object.keys(details).length > 0 ? 'visible' : ''}`}>
         <RepoDetails details={details} loading={detailsLoading} />
       </div>
     </div>
