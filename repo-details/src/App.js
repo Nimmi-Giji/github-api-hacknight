@@ -86,7 +86,7 @@ function App() {
         <RepoDetails details={details} loading={detailsLoading} />
       </div>
     </div>
-  )
+  );
 }
 
 export default App;
