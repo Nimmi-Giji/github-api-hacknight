@@ -10,7 +10,7 @@ RepoScouts is a powerful and intuitive application designed to provide developer
 1. Nimmi M Giji
 2. Ganga SajeevKumar
 ## Link to product walkthrough
-[link to video](Project Demo)(https://drive.google.com/file/d/1I5dHJ-W45A1igVUZ02vC2A2Qmxdxgtgw/view?usp=drive_link)
+[(Project Demo)](https://drive.google.com/file/d/1I5dHJ-W45A1igVUZ02vC2A2Qmxdxgtgw/view?usp=drive_link)
 ## How it Works ?
 1. To begin a search, simply enter the GitHub username of the profile whose repositories you want to analyze.
 2. After pressing Enter or clicking the 'Search' button, you will receive a list of all repositories associated with that profile.
