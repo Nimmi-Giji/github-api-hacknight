@@ -4,19 +4,34 @@
 
 
 
-# Project Name
-Long Description about project. This project do that. This project is awesome...
+# RepoScout
+RepoScouts is a powerful and intuitive application designed to provide developers, project managers, and tech enthusiasts with insights into GitHub repositories. By leveraging the GitHub API, RepoScout allows users to effortlessly explore and analyze repository details quickly and efficiently. 
 ## Team members
-1. [Name 1](https://github.com/TH-Activities/saturday-hack-night-template)
-2. [Name 2](https://github.com/TH-Activities/saturday-hack-night-template)
+1. Nimmi M Giji(https://github.com/TH-Activities/saturday-hack-night-template)
+2. Ganga SajeevKumar(https://github.com/TH-Activities/saturday-hack-night-template)
 ## Link to product walkthrough
-[link to video](Link Here)
+[[link to video](Link Here)](https://drive.google.com/file/d/1I5dHJ-W45A1igVUZ02vC2A2Qmxdxgtgw/view?usp=drive_link)
 ## How it Works ?
-1. Explaining the working of project
-2. Embed video of project demo
+1. To begin a search, simply enter the GitHub username of the profile whose repositories you want to analyze.
+2. After pressing Enter or clicking the 'Search' button, you will receive a list of all repositories associated with that profile.
+3. To view detailed information about a specific repository, click on the corresponding row in the list. The repository details will be displayed below the selected row.
+4. You can repeat this process as often as needed to explore various repositories and their details.
+
+
+https://github.com/user-attachments/assets/473568bb-f27d-4500-902f-5e5c9bb6d6df
+
+
+
 ## Libraries used
-Library Name - Version
+React - v18.3.1 (web app development)
 ## How to configure
-Instructions for setting up project
+1. Acertain the installations of React, Axios, and Node.js on your local system. 
+2. Clone the GitHub repository using the following command:
+```git clone [repo-link]```
+3. Navigate to the cloned repository directory and run the following command to install necessary dependencies:
+```npm install```
+4. Now the project can be run locally.
 ## How to Run
-Instructions for running
+1. Navigate to the directory of the repository directory.
+2. In your terminal, run the following command:
+```npm start```
