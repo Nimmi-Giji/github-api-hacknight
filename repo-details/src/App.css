@@ -28,6 +28,12 @@ body {
   to { transform: rotate(360deg); }
 }
 
+.heading{
+  display: flex;
+  justify-content: center;
+  color: rgb(83, 82, 82);
+}
+
 /* Header styles */
 .App-header {
   background-color: #1a202c;

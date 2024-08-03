@@ -61,7 +61,12 @@ function App() {
     });
   }
   return (
+  
+
     <div>
+      <h1 className="heading">
+        RepoScout
+      </h1>
       <form className = "form">
         <input className="input"
         value = {username}
